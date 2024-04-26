@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Delight My Eyes</title>
+
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <script type="x-shader/x-fragment">#version 300 es
+
+precision highp float;
+out vec4 O;
+uniform float time;
+uniform vec2 resolution;
+uniform vec2 touch;
+uniform int pointerCount;
+#define P pointerCount
+#define mouse ((touch-.5*R)/min(R.x,R.y))
+#define FC gl_FragCoord.xy
+#define R resolution
+#define T time
+#define S smoothstep
+#define N normalize
+#define rot(a) mat2(cos(a-vec4(0,11,33,0)))
+float rnd(vec2 p) {
+  return fract(sin(dot(p, vec2(12.9898, 78.233)))*345678.);
+}
+float noise(vec2 p) {
+  vec2 i = floor(p),
+  f = fract(p),
+  u = S(.0, 1., f);
+
+  float
+  a = rnd(i),
+  b = rnd(i+vec2(1, 0)),
+  c = rnd(i+vec2(0, 1)),
+  d = rnd(i+1.);
+
+  return mix(mix(a, b, u.x), mix(c, d, u.x), u.y);
+}
+vec3 palette(float t) {
+  vec3
+  a = vec3(.65),
+  b = vec3(1.5),
+  c = vec3(1,.5,.5),
+  d = vec3(.4,.3,.4);
+
+  return a+b*cos(2.3*(c*d+t));
+}
+float fbm(vec2 p) {
+	float t=.0, a=1.;
+	for (int i=0; i<5; i++) {
+		vec2 s=vec2(noise(p+T),noise(p-T+1.))*2.-.5;
+		t += a*(s.x);
+		p = 2.*p*rot(.39)+s;
+		a *= .5;
+	}
+	
+	return t;
+}
+vec3 pattern(vec2 p) {
+	vec2 q=p*rot(T*.25);
+  float d = fbm(.25*q);
+  vec3 col = palette((1.-d)*(1.-fbm(p)));
+  return col;
+}
+vec2 map(vec3 p) {
+	return vec2(-(length(p)-10.),0);
+}
+vec3 norm(vec3 p) {
+  float h = 1e-3; vec2 k = vec2(-1, 1);
+  return N(
+    k.xyy*map(p+k.xyy*h).x+
+    k.yxy*map(p+k.yxy*h).x+
+    k.yyx*map(p+k.yyx*h).x+
+    k.xxx*map(p+k.xxx*h).x
+  );
+}
+float calcAO(vec3 p, vec3 n) {
+  float occ=.0, sca=1.;
+  for (float i=.0; i<5.; i++) {
+    float
+    h=.01+i*.04,
+    d=map(p+h*n).x;
+    occ+=(h-d)*sca;
+    sca*=.55;
+    if (occ>.35) break;
+  }
+  return clamp(1.-3.*occ,.0,1.)*(.5+.5*n.y);
+}
+void cam(inout vec3 p) {
+  vec2 m = mouse*3.14;
+  float t = T*.1;
+  p.yz *= rot((sin(t)*.4+.3)-m.y*1.5707);
+  p.xz *= rot(sin(t)*.2-m.x*3.14);
+}
+void main() {
+  vec2 uv = (FC-.5*R)/min(R.x, R.y);
+  vec3 col = vec3(0),
+  p = vec3(0, 0, exp(sin(3.1415926536+T*.05))*1.5-6.),
+  rd = N(vec3(uv, 1));
+  cam(p); cam(rd);
+  const float steps = 400., maxd = 12.;
+  for (float i = .0; i < steps; i++) {
+    vec2 d = map(p);
+    if (abs(d.x) < 1e-3) {
+      vec3 n = norm(p),
+      r=reflect(rd,n);
+			float pat=S(.0,.25,sin(T-r.z*12.+sin(T*2.-p.z*12.)));
+			col=max(col,palette(pat)*n.z*.8)*calcAO(p,n);
+			col=max(col,S(2.,-1.,pattern(p.xy)));
+			break;
+    }
+
+    if (d.x > maxd) break;
+    p += rd*d.x;
+  }
+  O = vec4(col, 1);
+}</script>
+  <!-- partial -->
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
