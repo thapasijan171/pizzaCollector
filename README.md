@@ -1,1 +1,2 @@
-# Dynamic-css-code-
+# Dynamic-js-code
+Dynamic JavaScript code" refers to JavaScript code that is capable of adapting and changing based on various factors or conditions. This dynamism is achieved through techniques such as event handling, DOM manipulation, and conditional statements. Dynamic JavaScript code can respond to user interactions, update content on a web page in real-time, fetch and display data from external sources asynchronously, and much more. By harnessing the power of JavaScript's dynamic capabilities, developers can create interactive and engaging web experiences that respond to the needs and actions of users
