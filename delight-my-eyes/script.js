@@ -21,7 +21,7 @@ function init() {
   document.body.innerHTML = ""
   document.body.appendChild(canvas)
   document.body.style = "margin:0;touch-action:none;overflow:hidden"
-  canvas.style.width = "100.1%"
+  canvas.style.width = "auto"
   canvas.style.height = "auto"
   canvas.style.objectFit = "contain"
   canvas.style.userSelect = "none"
