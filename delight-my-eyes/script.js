@@ -169,6 +169,20 @@ class Renderer {
     gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4)
   }
 }
+
+
+/* 
+Constructor: Initializes the PointerHandler instance with the provided HTML element and scale factor. It sets up event listeners for pointerdown, pointerup, pointerleave, and pointermove events on the element.
+Pointerdown Event Listener: When a pointer is pressed down on the element, it records the pointer's ID and initial coordinates relative to the element's dimensions and scale.
+Pointerup and Pointerleave Event Listeners: When a pointer is released or leaves the element, it removes the pointer's ID from the active pointers list and updates the active state accordingly.
+Pointermove Event Listener: Updates the coordinates of active pointers as they move across the element.
+getScale() Method: Returns the current scale factor.
+updateScale() Method: Updates the scale factor.
+count Getter: Returns the number of active pointers.
+coords Getter: Returns an array containing the coordinates of all active pointers.
+first Getter: Returns the coordinates of the first active pointer or the last recorded coordinates if there are no active pointers.
+*/
+
 class PointerHandler {
   constructor(element, scale) {
     this.scale = scale
