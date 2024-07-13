@@ -110,10 +110,7 @@ class App {
   }
 
   /* 
-  The transition is done in 3 steps :
-  1 - the cameras moves towards the portal + the virtual world moves to portalWorldEnd
-  2 - When the camera reaches the portal, main world and virtual world are switched
-  3 - The cameras move back to their start position. Main world transform are moved back to their origin : scale = 1, rotation = 0, position = 0 
+  - The cameras move back to their start position. Main world transform are moved back to their origin : scale = 1, rotation = 0, position = 0 
   */
   moveCameraToPortal() {
     this.isInTransition = true;
