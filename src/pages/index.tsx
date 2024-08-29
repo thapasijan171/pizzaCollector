@@ -74,7 +74,7 @@ const Home: NextPage = () => {
           Song lyrics Finder
         </h2>
         <p className="text-center text-base text-pink-100 md:text-xl">
-        This RESTful Lyrics API offers a simple way to fetch song lyrics with clear endpoints and wide coverage. It's reliable, easy to integrate, and returns well-formatted JSON data. Ideal for music apps, it requires minimal setup and works seamlessly in any project.</p>
+        This RESTful Lyrics API offers a simple way to fetch song lyrics with clear endpoints and wide coverage. It reliable, easy to integrate, and returns well-formatted JSON data. Ideal for music apps, it requires minimal setup and works seamlessly in any project.</p>
       </section>
       <section className="flex w-full flex-col items-center justify-center gap-4 p-2 md:w-2/3 lg:w-1/2">
         <div className="flex w-full flex-col items-center justify-center gap-4">
