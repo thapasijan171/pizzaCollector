@@ -37,7 +37,7 @@ export default function Instrucciones() {
           </ul>
 
           <div className="instrucciones_button">
-            <button onClick={() => HiddeModal()}>Entendido</button>
+            <button onClick={() => HiddeModal()}>Understand </button>
           </div>
         </div>
       </div>
