@@ -1,0 +1,25 @@
+.galaxy_container {
+  background-color: #242424;
+}
+
+.galaxy_genetator_footer_header {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  /* display: none; */
+}
+
+.galaxy_genetator_footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  padding-left: 1rem;
+  /* display: none; */
+}

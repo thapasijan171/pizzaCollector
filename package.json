@@ -1,27 +1,24 @@
 {
-  "name": "fem-dictionary-web-app",
-  "version": "1.0.0",
-  "description": "Front-end mentor dictionary web app",
-  "main": "index.js",
+  "name": "noche_estrellas",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "start": "vite",
-    "build": "vite build",
-    "preview": "vite preview --port 8080"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jefcooper/fem-dictionary-web-app.git"
-  },
-  "author": "Jeff Cooper",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jefcooper/fem-dictionary-web-app/issues"
-  },
-  "homepage": "https://github.com/jefcooper/fem-dictionary-web-app#readme",
-  "devDependencies": {
-    "glob": "^8.0.3",
-    "path": "^0.12.7",
-    "sass": "^1.57.1",
-    "vite": "^4.0.4"
+  "dependencies": {
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "@types/three": "^0.146.0",
+    "eslint": "8.28.0",
+    "eslint-config-next": "13.0.4",
+    "next": "13.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "three": "^0.146.0",
+    "typescript": "4.9.3"
   }
 }

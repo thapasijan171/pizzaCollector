@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+}
+
+.container__dark {
+  background-color: #393939;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  height: 100%;
+}

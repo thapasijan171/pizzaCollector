@@ -1,0 +1,43 @@
+.footer_container {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 1rem 1rem;
+  background-color: #000;
+}
+
+.footer_wrapper {
+  width: 100%;
+  max-width: 280px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer_title {
+  width: 100%;
+  color: #8c8c8c;
+  font-size: 1rem;
+  font-family: 'Inter';
+}
+
+.footer_links {
+  padding-top: 0.5rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.footer_author_name {
+  color: #8c8c8c;
+  font-family: 'Inter';
+  font-size: 1rem;
+}
+
+.footer_author_link {
+  margin-left: 0.25rem;
+  color: #1d71c5;
+  font-family: 'Inter';
+  font-size: 1rem;
+}
