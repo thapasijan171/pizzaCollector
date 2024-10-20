@@ -91,7 +91,7 @@ export const VolumeSlider = ({
         <IconButton sx={{ color: "white" }} onClick={handleMuteClick}>
           {userProfile.audioVolume === 0 ? (
             <VolumeOff />
-          ) : userProfile.audioVolume <= 0.5 ? (
+          ) : userProfile.audioVolume <= 0.4 ? (
             <VolumeDown />
           ) : (
             <VolumeUp />

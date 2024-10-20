@@ -1,14 +1,13 @@
-# [🍯 Honey Clicker Game](https://honey-clicker-game.netlify.app/)
+# [❄️IceCollector](https://honey-clicker-game.netlify.app/)
 
 <br />
 
-<img alt="logo" src="public/logo192.png" />
+<img alt="logo" src="./src/assets/HappyBee.png" width="300px"/>
 
 <br />
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1aee53e8-2535-4aea-aef7-1744cde81411/deploy-status)](https://app.netlify.com/sites/honey-clicker-game/deploys)
 
-Welcome to Honey Clicker! This is a simple yet addictive clicker game where you can earn points by clicking on a honey jar. You can use your points to upgrade your clicking power, earn more points per second, and unlock achievements. Your progress is saved in localstorage, so you can resume your game anytime. Read more at [https://honey-clicker-game.netlify.app/about](https://honey-clicker-game.netlify.app/about)
+Welcome to Honey Clicker! This is a simple yet addictive clicker game where you can earn points by clicking on a honey jar. You can use your points to upgrade your clicking power, earn more points per second, and unlock achievements. Your progress is saved in localstorage, so you can resume your game anytime. Read more at [https://icecollector.vercel.app/about](https://icecollector.vercel.app/about)
 
 ## ⚡ Features
 
@@ -21,7 +20,7 @@ Welcome to Honey Clicker! This is a simple yet addictive clicker game where you 
 - Responsive design that adapts to different screen sizes
 - PWA (can be installed on mobile/desktop), and works offline.
 
-## 📷 Screenshots
+<!-- ## 📷 Screenshots
 
 <img alt="screenshot 1" width="500" src="public/screenshots/ss1.png" />
 
@@ -29,7 +28,7 @@ Welcome to Honey Clicker! This is a simple yet addictive clicker game where you 
 
 <img alt="screenshot 3" width="500" src="public/screenshots/ss3.png" />
 
-<img alt="screenshot 4" width="500" src="public/screenshots/ss4.png" />
+<img alt="screenshot 4" width="500" src="public/screenshots/ss4.png" /> -->
 
 ## 🎨 Color Palette
 
@@ -58,7 +57,7 @@ Project is created with:
 
 To install and run the project locally, follow these steps:
 
-- Clone the repository: `git clone https://github.com/maciekt07/clicker-game.git`
+- Clone the repository: `git clone https://github.com/thapasijan171/IceCollector.git`
 - Navigate to the project directory: `cd clicker-game`
 - Install the dependencies: `npm install`
 - Start the development server: `npm run dev`

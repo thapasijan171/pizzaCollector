@@ -89,7 +89,7 @@ export const AchievementsList = ({ userProfile }: Props) => {
                 {achievement.reward && (
                   <>
                     <br />
-                    <b> Reward: 🍯{achievement.reward}</b>
+                    <b> Reward: ❄️{achievement.reward}</b>
                   </>
                 )}
               </Description>
