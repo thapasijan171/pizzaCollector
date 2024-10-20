@@ -1,9 +1,9 @@
 {
-  "name": "ice-collector",
+  "name": "pizza-collector",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ice-collector.vercel.app",
+  "homepage": "https://pizzacollector.vercel.app",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
