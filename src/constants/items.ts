@@ -23,219 +23,223 @@ export interface Item {
  * @type {Object<string, Item>}
  */
 export const items: { [key: string]: Item } = {
-  smallBee: {
-    name: "Very Small Bee",
+  smallPizza: {
+    name: "Very Small Pizza",
     cost: 20,
     multiplier: 0.5,
     perSecond: 2,
     description:
-      "A tiny bee that doesn't produce much honey, but is a good starting point for your hive.",
-    emoji: "🐝",
+      "A tiny pizza that doesn't produce much flavor, but is a great start for your pizza empire.",
+    emoji: "🍕",
   },
 
-  workerBee: {
-    name: "Worker Bee",
+  workerPizza: {
+    name: "Worker Pizza",
     cost: 100,
     multiplier: 2,
     perSecond: 5,
     description:
-      "The backbone of any bee colony, this bee works tirelessly to gather nectar and pollen and produce honey.",
-    emoji: "🐝",
+      "The backbone of any pizza restaurant, this pizza works tirelessly to satisfy hungry customers.",
+    emoji: "🍕",
   },
 
-  honeycomb: {
-    name: "Honeycomb",
+  pizzaSlice: {
+    name: "Pizza Slice",
     cost: 500,
     multiplier: 5,
     perSecond: 20,
     description:
-      "A hexagonal wax structure that bees build to store their honey and raise their young.",
-    emoji: "🍯",
+      "A delicious slice of pizza that keeps customers coming back for more.",
+    emoji: "🍕",
   },
 
-  beekeepersHat: {
-    name: "Beekeeper's Hat",
+  chefsHat: {
+    name: "Chef's Hat",
     cost: 1000,
     multiplier: 10,
     perSecond: 30,
     description:
-      "A hat with a veil that protects the beekeeper's head and face from bee stings.",
-    emoji: "🧢",
+      "A stylish hat that represents culinary excellence and protects the chef from hot kitchen mishaps.",
+    emoji: "👨‍🍳",
   },
 
-  queenBee: {
-    name: "Queen Bee",
+  pizzaMaster: {
+    name: "Pizza Master",
     cost: 2500,
     multiplier: 25,
     perSecond: 50,
     description:
-      "The ruler of the hive, the queen bee is responsible for laying all the eggs and maintaining the colony's social order.",
-    emoji: "👑",
+      "The master of pizza-making, responsible for creating the most delicious pies in the kitchen.",
+    emoji: "🍕",
   },
 
-  droneBee: {
-    name: "Drone Bee",
+  gourmetPizza: {
+    name: "Gourmet Pizza",
     cost: 5000,
     multiplier: 50,
     perSecond: 100,
     description:
-      "A male bee whose sole purpose is to mate with the queen bee. Essential for the survival of the colony.",
-    emoji: "🐝",
+      "A high-end pizza crafted with the finest ingredients, sure to impress any foodie.",
+    emoji: "🍕",
   },
 
-  goldenFlower: {
-    name: "Golden Flower",
+  specialTopping: {
+    name: "Special Topping",
     cost: 12500,
     multiplier: 75,
     perSecond: 180,
     description:
-      "A rare flower that produces honey with a distinct flavor and high nutritional value.",
-    emoji: "🌻",
+      "A rare topping that elevates your pizza to a whole new level of deliciousness.",
+    emoji: "🍕",
   },
 
-  honeyPot: {
-    name: "Honey Pot",
+  pizzaOven: {
+    name: "Pizza Oven",
     cost: 20000,
     multiplier: 100,
     perSecond: 250,
     description:
-      "A pot filled with delicious, golden honey that's ready for human consumption.",
-    emoji: "🍯",
+      "A top-of-the-line oven that ensures every pizza is cooked to perfection.",
+    emoji: "🔥",
   },
 
-  beeSuit: {
-    name: "Bee Suit",
+  pizzeria: {
+    name: "Pizzeria",
     cost: 100000,
     multiplier: 500,
     perSecond: 1000,
     description:
-      "A protective suit that covers the entire body and prevents bee stings.",
-    emoji: "👩‍🚀",
+      "A bustling pizzeria where customers enjoy fresh pizza and a lively atmosphere.",
+    emoji: "🏠",
   },
 
-  hive: {
-    name: "Hive",
+  pizzaParlor: {
+    name: "Pizza Parlor",
     cost: 500000,
     multiplier: 1000,
     perSecond: 2000,
     description:
-      "A structure made of wax and propolis that houses a bee colony.",
-    emoji: "🏡",
+      "A charming pizza parlor that attracts pizza lovers from all around.",
+    emoji: "🍕",
   },
 
-  royalJelly: {
-    name: "Royal Jelly",
+  pizzaFactory: {
+    name: "Pizza Factory",
     cost: 1000000,
     multiplier: 2000,
     perSecond: 5000,
     description:
-      "A special substance secreted by worker bees that's fed exclusively to the queen bee and her larvae.",
-    emoji: "👑",
+      "A large factory dedicated to producing pizzas on a massive scale.",
+    emoji: "🏭",
   },
 
-  pollinatorDrone: {
-    name: "Pollinator Drone",
+  supremePizza: {
+    name: "Supreme Pizza",
     cost: 2500000,
     multiplier: 3000,
     perSecond: 7500,
     description:
-      "A specialized drone that's designed to pollinate flowers in large quantities, significantly boosting the efficiency of the bee colony.",
-    emoji: "🚁",
+      "The ultimate pizza loaded with toppings, a favorite among all pizza enthusiasts.",
+    emoji: "🍕",
   },
 
-  royalHive: {
-    name: "Royal Hive",
+  pizzaEmpire: {
+    name: "Pizza Empire",
     cost: 5000000,
     multiplier: 5000,
     perSecond: 10000,
     description:
-      "A luxurious hive fit for a queen, with spacious chambers and plenty of room for her attendants.",
-    emoji: "🏰",
+      "An empire built on pizza, serving millions of slices daily.",
+    emoji: "👑",
   },
 
-  apiary: {
-    name: "Apiary",
+  pizzaCart: {
+    name: "Pizza Cart",
     cost: 10000000,
     multiplier: 7500,
     perSecond: 15000,
     description:
-      "A collection of beehives that's used for commercial honey production.",
-    emoji: "🏭",
+      "A mobile pizza cart that brings delicious slices to street corners everywhere.",
+    emoji: "🍕",
   },
 
-  pollenCollector: {
-    name: "Pollen Collector",
+  pizzaRobot: {
+    name: "Pizza Robot",
     cost: 25000000,
     multiplier: 10000,
     perSecond: 20000,
     description:
-      "A machine that automatically collects pollen from flowers, making the work of the bees a little easier.",
-    emoji: "🌼",
+      "A robot designed to automate pizza-making, ensuring consistency and speed.",
+    emoji: "🤖",
   },
 
-  royalBee: {
-    name: "Royal Bee",
+  legendaryPizza: {
+    name: "Legendary Pizza",
     cost: 50000000,
     multiplier: 15000,
     perSecond: 30000,
     description:
-      " A majestic bee with a crown, known for its superior pollen collection and exquisite golden wings.",
-    emoji: "🐝",
+      "A mythical pizza known for its extraordinary taste, said to grant happiness to all who eat it.",
+    emoji: "🍕",
   },
 
-  diamondHive: {
-    name: "Diamond Hive",
+  diamondPizza: {
+    name: "Diamond Pizza",
     cost: 100000000,
     multiplier: 25000,
     perSecond: 50000,
     description:
-      "A hive made entirely of diamond, the ultimate symbol of luxury and prestige.",
+      "A pizza adorned with edible diamonds, the epitome of luxury dining.",
     emoji: "💎",
   },
 
-  honeyExtractor: {
-    name: "Honey Extractor",
+  pizzaExtractor: {
+    name: "Pizza Extractor",
     cost: 500000000,
     multiplier: 50000,
     perSecond: 100000,
     description:
-      "A device that spins the honeycombs and extracts the honey using centrifugal force.",
-    emoji: "🍯",
+      "A device that maximizes pizza production, extracting flavor and quality with each use.",
+    emoji: "🍕",
   },
-  beehiveObservatory: {
-    name: "Beehive Observatory",
+
+  pizzaObservatory: {
+    name: "Pizza Observatory",
     cost: 1000000000,
     multiplier: 150000,
     perSecond: 350000,
     description:
-      "An advanced bee observatory with high-tech cameras and sensors for studying bee behavior in their habitat.",
+      "An observatory dedicated to studying pizza trends and customer preferences.",
     emoji: "🔭",
   },
-  beeMuseum: {
-    name: "Bee Museum",
+
+  pizzaMuseum: {
+    name: "Pizza Museum",
     cost: 5000000000,
     multiplier: 750000,
     perSecond: 1500000,
     description:
-      "A place that showcases the history, culture, and science of bees and honey.",
+      "A museum showcasing the history, culture, and science of pizza and its creation.",
     emoji: "🏛️",
   },
-  honeyBeeStatue: {
-    name: "Honey Bee Statue",
+
+  pizzaStatue: {
+    name: "Pizza Statue",
     cost: 10000000000,
     multiplier: 2000000,
     perSecond: 4000000,
     description:
-      " A statue of a honey bee made of pure gold that represents the ultimate achievement in beekeeping.",
+      "A statue of a pizza made of pure gold that represents the ultimate achievement in pizza-making.",
     emoji: "🗽",
   },
-  programmerBee: {
-    name: "Programmer Bee",
+
+  coderPizza: {
+    name: "Coder Pizza",
     cost: 50000000000,
     multiplier: 10000000,
     perSecond: 250000000,
     description:
-      "A highly skilled bee who knows how to write code in languages such as JavaScript, React, TypeScript, and more. She has a strong background in front-end development.",
-    emoji: "🐝💻",
+      "A highly skilled pizza that knows how to code recipes in various styles, ensuring perfect flavor every time.",
+    emoji: "🍕💻",
   },
 };

@@ -15,7 +15,7 @@ export const About = () => {
   const itemsCount = Object.keys(items).length;
   // Set the document title
   useEffect(() => {
-    document.title = "About - IceCollector❄️";
+    document.title = "About - PizzaCollector❄️";
   }, []);
 
   // Define the technology stack used to build the game
@@ -37,9 +37,9 @@ export const About = () => {
         }}
       >
         <AboutContainer>
-          <AboutTitle>About IceCollector</AboutTitle>
+          <AboutTitle>About PizzaCollector</AboutTitle>
           <AboutText>
-            <b>Welcome to IceCollector!</b> This is a simple yet addictive
+            <b>Welcome to PizzaCollector!</b> This is a simple yet addictive
             clicker game where you can earn points by clicking on a IcePom.
             You can use your points to upgrade your clicking power, earn more
             points per second, and unlock achievements.
@@ -49,7 +49,7 @@ export const About = () => {
             You can also use the volume slider to adjust the game's sound
             effects. Don't forget to check out the stats info to see how many
             points you've earned and your progress towards unlocking
-            achievements. To customize your IceCollector profile, you can
+            achievements. To customize your PizzaCollector profile, you can
             access the user profile settings by clicking on the profile icon at
             the top right corner of the game's screen. From there, you can
             change your username and profile picture by clicking on the
@@ -58,7 +58,7 @@ export const About = () => {
           <AboutText>
             <b>As you play the game,</b> you will unlock various achievements.
             There are currently <b>{achievementsCount} achievements</b>{" "}
-            available to unlock in IceCollector. These include achievements for
+            available to unlock in PizzaCollector. These include achievements for
             producing IcePom, clicking the button, and more. You can also visit
             the shop to purchase upgrades that will increase your points per
             second and multiplier. They are <b>{itemsCount} unique items</b> to
@@ -66,7 +66,7 @@ export const About = () => {
           </AboutText>
 
           <AboutText>
-            <b>IceCollector is a Progressive Web App. </b>
+            <b>PizzaCollector is a Progressive Web App. </b>
             Add this app to your home screen for quick and easy access to the
             game. This game works offline, so you can play it anytime, anywhere
             without an internet connection.
@@ -90,7 +90,7 @@ export const About = () => {
           <br />
           <Stack spacing={2} direction="row">
             <Button
-              href="https://github.com/thapasijan171/Icecollector"
+              href="https://github.com/thapasijan171/PizzaCollector"
               target="_blank"
               variant="outlined"
               style={{
