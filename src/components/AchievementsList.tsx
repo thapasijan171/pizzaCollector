@@ -40,15 +40,14 @@ export const AchievementsList = ({ userProfile }: Props) => {
       {unlockedAchievements.map((achievement) => (
         <Tooltip
           key={achievement.name}
-          title={`Requirement: ${
-            achievement.clicksRequired
+          title={`Requirement: ${achievement.clicksRequired
               ? achievement.clicksRequired + " clicks"
               : achievement.requirement
-              ? achievement.requirement + " points"
-              : achievement.purchasesRequired
-              ? achievement.purchasesRequired + " purchases"
-              : achievement.description
-          }`}
+                ? achievement.requirement + " points"
+                : achievement.purchasesRequired
+                  ? achievement.purchasesRequired + " purchases"
+                  : achievement.description
+            }`}
         >
           <ItemWrapper>
             <AvatarWrapper>
@@ -89,7 +88,7 @@ export const AchievementsList = ({ userProfile }: Props) => {
                 {achievement.reward && (
                   <>
                     <br />
-                    <b> Reward: ❄️{achievement.reward}</b>
+                    <b> Reward: 🍕{achievement.reward}</b>
                   </>
                 )}
               </Description>

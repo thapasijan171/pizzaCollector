@@ -143,7 +143,7 @@ export const Shop = ({ userProfile, setUserProfile }: UserProfileProps) => {
                 </Description>
               </Tooltip>
               <Cost enoughtPoints={userProfile.points >= newCost}>
-                Cost: ❄️{formatNumber(newCost, 0)}
+                Cost: 🍕{formatNumber(newCost, 0)}
               </Cost>
               <p>Multiplier: {formatNumber(item.multiplier, 0)}</p>
               <p>Per second: {formatNumber(item.perSecond, 1)}</p>

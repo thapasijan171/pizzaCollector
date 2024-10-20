@@ -12,7 +12,7 @@ export const StatsInfo = ({ userProfile }: Props) => {
   const checkShowPoints = useScrollTrigger();
 
   const formatPoints = () => {
-    return `Points: ❄️${
+    return `Points: 🍕${
       userProfile.points > 100
         ? formatNumber(userProfile.points, 0)
         : formatNumber(userProfile.points)
