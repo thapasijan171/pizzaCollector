@@ -15,7 +15,7 @@ export const About = () => {
   const itemsCount = Object.keys(items).length;
   // Set the document title
   useEffect(() => {
-    document.title = "About - PizzaCollector❄️";
+    document.title = "About - PizzaCollector🍕";
   }, []);
 
   // Define the technology stack used to build the game
