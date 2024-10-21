@@ -26,85 +26,85 @@ An object containing all the achievements that can be earned by the user.
 @type {Object.<string, Achievement>}
 */
 export const achievements: { [key: string]: Achievement } = {
-  //points
-  honeyBeginner: {
-    name: "Ice Beginner",
-    emoji: "❄️",
-    description: "Produce 100 Ice",
+  // points
+  pizzaBeginner: {
+    name: "Pizza Beginner",
+    emoji: "🍕",
+    description: "Produce 100 Pizzas",
     longDescription:
-      "You've taken your first steps into the world of beekeeping and produced 100 ice, golden drops of honey. Keep up the buzz-worthy work!",
+      "You've taken your first steps into the world of pizza making and produced 100 delicious pizzas. Keep up the tasty work!",
     requirement: 100,
   },
-  beekeeperTrainee: {
-    name: "Beekeeper Trainee",
-    emoji: "🍯",
-    description: "Produce 1,000 honey",
+  pizzaTrainee: {
+    name: "Pizza Trainee",
+    emoji: "🍕",
+    description: "Produce 1,000 Pizzas",
     longDescription:
-      "You've graduated to the rank of Beekeeper Trainee by producing 1,000 jars of honey. Your bees must be working overtime!",
+      "You've graduated to the rank of Pizza Trainee by producing 1,000 pizza slices. Your ovens must be working overtime!",
     requirement: 1000,
   },
-  honeyExpert: {
-    name: "Honey Expert",
-    emoji: "🍯",
-    description: "Produce 10,000 honey",
+  pizzaExpert: {
+    name: "Pizza Expert",
+    emoji: "🍕",
+    description: "Produce 10,000 Pizzas",
     longDescription:
-      "You're no longer a novice beekeeper; you're a Honey Expert! You've produced 10,000 jars of honey and have undoubtedly earned the respect of your bee colony.",
+      "You're no longer a novice pizza maker; you're a Pizza Expert! You've produced 10,000 pizzas and have undoubtedly earned the respect of your fellow chefs.",
     requirement: 10000,
   },
-  beekeepingMaster: {
-    name: "Beekeeping Master",
-    emoji: "🍯",
-    description: "Produce 100,000 honey",
+  pizzaMaster: {
+    name: "Pizza Master",
+    emoji: "🍕",
+    description: "Produce 100,000 Pizzas",
     longDescription:
-      "You've mastered the art of beekeeping and produced 100,000 jars of honey. Your honey is in high demand and your bees couldn't be happier.",
+      "You've mastered the art of pizza making and produced 100,000 pizzas. Your pizza is in high demand, and your customers couldn't be happier.",
     requirement: 100000,
   },
-  honeyLegend: {
-    name: "Honey Legend",
-    emoji: "🍯",
-    description: "Produce 1,000,000 honey",
+  pizzaLegend: {
+    name: "Pizza Legend",
+    emoji: "🍕",
+    description: "Produce 1,000,000 Pizzas",
     longDescription:
-      "You're a Honey Legend! With 1,000,000 jars of honey under your belt, your honey is known far and wide for its sweetness and quality.",
+      "You're a Pizza Legend! With 1,000,000 pizzas under your belt, your pizza is known far and wide for its flavor and quality.",
     requirement: 1000000,
   },
-  honeyTycoon: {
-    name: "Honey Tycoon",
-    emoji: "🍯",
-    description: "Produce 10,000,000 honey",
+  pizzaTycoon: {
+    name: "Pizza Tycoon",
+    emoji: "🍕",
+    description: "Produce 10,000,000 Pizzas",
     longDescription:
-      "Your beekeeping empire is growing! With 10,000,000 jars of honey produced, you're now a Honey Tycoon. Keep up the sweet work!",
+      "Your pizza empire is growing! With 10,000,000 pizzas produced, you're now a Pizza Tycoon. Keep up the delicious work!",
     requirement: 10000000,
   },
-  honeyMagnate: {
-    name: "Honey Magnate",
-    emoji: "🍯",
-    description: "Produce 100,000,000 honey",
+  pizzaMagnate: {
+    name: "Pizza Magnate",
+    emoji: "🍕",
+    description: "Produce 100,000,000 Pizzas",
     longDescription:
-      "You're a Honey Magnate, producing 100,000,000 jars of honey! Your honey is a top seller and you've become a household name in the beekeeping world.",
+      "You're a Pizza Magnate, producing 100,000,000 pizzas! Your pizza is a top seller, and you've become a household name in the pizza world.",
     requirement: 100000000,
   },
-  honeyBaron: {
-    name: "Honey Baron",
-    emoji: "🍯",
-    description: "Produce 1,000,000,000 honey",
+  pizzaBaron: {
+    name: "Pizza Baron",
+    emoji: "🍕",
+    description: "Produce 1,000,000,000 Pizzas",
     longDescription:
-      "With 1,000,000,000 jars of honey produced, you're now a Honey Baron. Your bees are well-fed and happy, and your honey is a sought-after commodity.",
+      "With 1,000,000,000 pizzas produced, you're now a Pizza Baron. Your kitchens are well-stocked and your pizzas are a sought-after delicacy.",
     requirement: 1000000000,
   },
-  honeyEmpire: {
-    name: "Honey Empire",
-    emoji: "🍯",
-    description: "Produce 10,000,000,000 honey",
+  pizzaEmpire: {
+    name: "Pizza Empire",
+    emoji: "🍕",
+    description: "Produce 10,000,000,000 Pizzas",
     longDescription:
-      "You've built a honey empire with 10,000,000,000 jars of honey produced. Your bees are buzzing with pride, and your honey is the envy of all other beekeepers.",
+      "You've built a pizza empire with 10,000,000,000 pizzas produced. Your kitchens are bustling with activity, and your pizzas are the envy of all other chefs.",
     requirement: 10000000000,
   },
-  honeyUniverse: {
-    name: "Honey Universe",
-    emoji: "🍯",
-    description: "Produce 100,000,000,000 honey",
+  pizzaUniverse: {
+    name: "Pizza Universe",
+    emoji: "🍕",
+    description: "Produce 100,000,000,000 Pizzas",
     longDescription:
-      "You're a true master of beekeeping with 100,000,000,000 jars of honey produced, earning you the title of Honey Universe. Your bees bow down to your greatness!",
+      "You're a true master of pizza making with 100,000,000,000 pizzas produced, earning you the title of Pizza Universe. Your pizzas are legendary!",
     requirement: 100000000000,
   },
   clickingNovice: {
@@ -168,7 +168,7 @@ export const achievements: { [key: string]: Achievement } = {
     emoji: "🛍️",
     description: "Buy 10 items",
     longDescription:
-      "You've made your first 10 purchases and earned the title of Buy Beginner. Keep buying and building your beekeeping empire!",
+      "You've made your first 10 purchases and earned the title of Buy Beginner. Keep buying and building your pizza empire!",
     purchasesRequired: 10,
   },
   buyingEnthusiast: {
@@ -176,7 +176,7 @@ export const achievements: { [key: string]: Achievement } = {
     emoji: "🛍️",
     description: "Buy 50 items",
     longDescription:
-      "Congratulations, you're a Buying Enthusiast! You've made 50 purchases, showing your passion and dedication for beekeeping. Keep up the great work!",
+      "Congratulations, you're a Buying Enthusiast! You've made 50 purchases, showing your passion and dedication for pizza making. Keep up the great work!",
     purchasesRequired: 50,
   },
   shoppingPro: {
@@ -184,7 +184,7 @@ export const achievements: { [key: string]: Achievement } = {
     emoji: "🛍️",
     description: "Buy 100 items",
     longDescription:
-      "With 100 purchases made, you're now a Shopping Pro. Your beekeeping equipment is top-of-the-line, and your bees are happy and well-cared-for.",
+      "With 100 purchases made, you're now a Shopping Pro. Your pizza-making equipment is top-of-the-line, and your pizzas are delicious.",
     purchasesRequired: 100,
   },
   buyTycoon: {
@@ -192,7 +192,7 @@ export const achievements: { [key: string]: Achievement } = {
     emoji: "🛍️",
     description: "Buy 500 items",
     longDescription:
-      "You've purchased 500 items and have earned the title of Buy Tycoon. Your dedication to beekeeping and your exceptional shopping skills have propelled your empire to new heights!",
+      "You've purchased 500 items and have earned the title of Buy Tycoon. Your dedication to pizza making and your exceptional shopping skills have propelled your empire to new heights!",
     purchasesRequired: 500,
   },
   buyExpert: {
@@ -200,7 +200,7 @@ export const achievements: { [key: string]: Achievement } = {
     emoji: "🛍️",
     description: "Buy 1,000 items",
     longDescription:
-      "You've made 1,000 purchases and have earned the title of Buy Expert. Your beekeeping knowledge and equipment are second to none!",
+      "You've made 1,000 purchases and have earned the title of Buy Expert. Your pizza-making knowledge and equipment are second to none!",
     purchasesRequired: 1000,
   },
   ShareGameEnthusiast: {
@@ -208,7 +208,7 @@ export const achievements: { [key: string]: Achievement } = {
     emoji: "🔗",
     description: "Click on share button",
     longDescription:
-      "You've shared this amazing game on a social media platform, spreading the word about the wonders of beekeeping. Keep buzzing and sharing!",
+      "You've shared this amazing game on a social media platform, spreading the word about the wonders of pizza making. Keep buzzing and sharing!",
     reward: 5000,
   },
   volumeController: {
