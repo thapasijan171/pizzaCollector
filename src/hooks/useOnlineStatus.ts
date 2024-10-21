@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 /**
  * Hook that checks if a user is currently online.
  *
- * @returns {boolean} Whether or not the user is online.
+ * @returns {boolean} Whether or not the user is online. or wot ? 
  */
 export const useOnlineStatus = (): boolean => {
   const [isOnline, setIsOnline] = useState<boolean>(navigator.onLine);
