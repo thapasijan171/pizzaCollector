@@ -115,7 +115,7 @@ export const About = () => {
             </Button>
           </Stack>
         </AboutContainer>
-        <BeeImg src={HappyBee} alt="happy Ice❄️" />
+        <BeeImg src={HappyBee} alt="happy pizza🍕" />
       </div>
     </>
   );
