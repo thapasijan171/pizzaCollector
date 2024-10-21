@@ -2,12 +2,12 @@
 
 <br>
 
-<!-- <img alt="logo" src="" width="300px"/> -->
+<img alt="logo" src="./public/logo512.png" width="300px"/>
 
 <br>
 
 
-Welcome to PizzaCollector! This is a simple yet addictive clicker game where you can earn points by clicking on a honey jar. You can use your points to upgrade your clicking power, earn more points per second, and unlock achievements. Your progress is saved in localstorage, so you can resume your game anytime. Read more at [https://pizzacollector.vercel.app/](https://pizzacollector.vercel.app/about)
+Welcome to PizzaCollector! This is a simple yet addictive clicker game where you can earn points by clicking on a Pizaa. You can use your points to upgrade your clicking power, earn more points per second, and unlock achievements. Your progress is saved in localstorage, so you can resume your game anytime. Read more at [https://pizzacollector.vercel.app/](https://pizzacollector.vercel.app/about)
 
 ## ⚡ Features
 
