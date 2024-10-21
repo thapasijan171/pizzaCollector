@@ -1,13 +1,13 @@
-# [❄️IceCollector](https://honey-clicker-game.netlify.app/)
+# [🍕pizzaCollector](https://pizzacollector.vercel.app/)
 
-<br />
+<br>
 
-<img alt="logo" src="./src/assets/HappyBee.png" width="300px"/>
+<!-- <img alt="logo" src="" width="300px"/> -->
 
-<br />
+<br>
 
 
-Welcome to Honey Clicker! This is a simple yet addictive clicker game where you can earn points by clicking on a honey jar. You can use your points to upgrade your clicking power, earn more points per second, and unlock achievements. Your progress is saved in localstorage, so you can resume your game anytime. Read more at [https://icecollector.vercel.app/about](https://icecollector.vercel.app/about)
+Welcome to PizzaCollector! This is a simple yet addictive clicker game where you can earn points by clicking on a honey jar. You can use your points to upgrade your clicking power, earn more points per second, and unlock achievements. Your progress is saved in localstorage, so you can resume your game anytime. Read more at [https://pizzacollector.vercel.app/](https://pizzacollector.vercel.app/about)
 
 ## ⚡ Features
 
@@ -57,7 +57,7 @@ Project is created with:
 
 To install and run the project locally, follow these steps:
 
-- Clone the repository: `git clone https://github.com/thapasijan171/IceCollector.git`
+- Clone the repository: `git clone https://github.com/thapasijan171/pizzaCollector.git`
 - Navigate to the project directory: `cd clicker-game`
 - Install the dependencies: `npm install`
 - Start the development server: `npm run dev`
