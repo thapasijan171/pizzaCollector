@@ -2,9 +2,9 @@
  * Represents an item that can be purchased in the clicker game.
  * @interface
  * @property {string} name - The name of the item.
- * @property {number} cost - The cost of the item in honey.
- * @property {number} multiplier - The multiplier that the item applies to honey production.
- * @property {number} perSecond - The amount of honey produced per second by the item.
+ * @property {number} cost - The cost of the item in pizaaaa.
+ * @property {number} multiplier - The multiplier that the item applies to pizaaaa production.
+ * @property {number} perSecond - The amount of pizaaaa produced per second by the item.
  * @property {string} description - A description of the item.
  * @property {string} [emoji] - An optional emoji representing the item.
  */

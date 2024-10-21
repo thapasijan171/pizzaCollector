@@ -162,7 +162,7 @@ export const Game = ({ userProfile, setUserProfile }: UserProfileProps) => {
   });
 
   useEffect(() => {
-    document.title = `Honey Clicker - ${compactFormat(userProfile.points)}`;
+    document.title = `Pizaaa Clicker - ${compactFormat(userProfile.points)}`;
   }, [userProfile.points]);
 
   useEffect(() => {
@@ -203,7 +203,7 @@ export const Game = ({ userProfile, setUserProfile }: UserProfileProps) => {
           <span>
             {shareAchievement.description}{" "}
             {shareAchievement.reward && (
-              <b>Reward: 🍯{shareAchievement.reward}</b>
+              <b>Reward: 🍕{shareAchievement.reward}</b>
             )}
           </span>
         ),
@@ -237,7 +237,7 @@ export const Game = ({ userProfile, setUserProfile }: UserProfileProps) => {
 
           <ClickContainer onTouchStart={(e) => e.preventDefault()}>
             <ClickButton
-              aria-label="Honey Jar"
+              aria-label="Pizaaa"
               className={isClicked ? "clicked" : ""}
               onClick={handleClick}
               onTouchStart={(e) => e.preventDefault()}
@@ -245,7 +245,7 @@ export const Game = ({ userProfile, setUserProfile }: UserProfileProps) => {
               <ClickImg
                 draggable="false"
                 src={HoneyJar}
-                alt="Honey Jar Image"
+                alt="pizaaa Jar Image"
               />
             </ClickButton>
           </ClickContainer>
